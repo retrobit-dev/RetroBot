@@ -1,0 +1,20 @@
+{
+  "name": "retrobot",
+  "version": "0.2.0",
+  "private": true,
+  "description": "RetroBot — a local, bring-your-own-key AI model arena for Android",
+  "license": "MIT",
+  "scripts": {
+    "mock": "npm --prefix mock start",
+    "test:mock": "npm --prefix mock test",
+    "test:arena": "node mock/test/arena.test.js",
+    "test": "npm run test:mock",
+    "check:kotlin": "node scripts/check-kotlin.js",
+    "check:symbols": "node scripts/check-symbols.js",
+    "check:text": "node scripts/check-text.js",
+    "check": "npm run check:kotlin && npm run check:symbols && npm run check:text && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

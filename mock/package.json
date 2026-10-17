@@ -1,0 +1,16 @@
+{
+  "name": "@retrobot/mock-provider",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Mock OpenAI-compatible provider for developing the RetroBot arena without an API key",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/provider.test.js && node test/arena.test.js"
+  }
+}

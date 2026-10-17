@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        A bare theme. All real styling happens in Compose (Theme.kt), so this
+        only needs to avoid the framework's action bar and keep the splash
+        background consistent with the app's dark surface.
+    -->
+    <style name="Theme.RetroBot" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/retro_background</item>
+    </style>
+</resources>
