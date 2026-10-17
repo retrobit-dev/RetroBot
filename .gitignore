@@ -1,0 +1,36 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Kotlin / Gradle
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+captures/
+.cxx/
+*.hprof
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Secrets — never commit credentials
+.env
+.env.*
+*.keystore
+*.jks
+secrets.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scratch
+*.log
+tmp/
